@@ -4,7 +4,7 @@ import React from "react";
 
 //create your first component
 const Home = () => {
-	fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr', {
+fetch('https://assets.breatheco.de/apis/fake/todos/user/alesanchezr', {
 method: "PUT",
 body: JSON.stringify(todos),
 headers: {
